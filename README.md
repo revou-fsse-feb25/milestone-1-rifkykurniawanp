@@ -1,1 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zOa-lK1T)
+
+---
+
+# Milestones 1 Website
+
+## Overview of the Website
+
+This is my personal portfolio website where I showcase my skills, projects, and contact section. It serves as an introduction to who I am as a web developer, my work, and the technologies I am passionate about. The website includes sections like "Home Section" "About Me Section", "Projects Section", and "Contact Section", providing visitors with an overview of my journey and my professional capabilities.
+
+## Features Implemented
+
+- **Home Section:** A welcome page with an introduction.
+- **About Me Section:** A brief bio about me, my skills, and my journey.
+- **Projects Section:** A showcase of personal projects(ongoing).
+- **Contact Section:** A form of the question about me and my porjects.
+
+## Technologies Used
+
+- **HTML5** – For the structure and content of the website.
+
+
+## How To Open The Website
+
+- 
+---
