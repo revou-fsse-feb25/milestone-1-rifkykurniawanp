@@ -21,5 +21,13 @@ This is my personal portfolio website where I showcase my skills, projects, and 
 
 ## How To Open The Website
 
-- 
+1. Copy the following URL:
+   `https://revou-fsse-feb25.github.io/milestone-1-rifkykurniawanp/`
+
+2. Open your web browser (e.g., Chrome, Firefox, Edge).
+
+3. Paste the URL into the browser's address bar.
+
+4. Hit Enter, and the webpage should load. 
+
 ---
