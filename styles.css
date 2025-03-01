@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+body{
+    background-color: rgb(255, 240, 220);
+}
+.layer-1{
+    padding: 2% 2%;
+    width: 90%;
+    margin: 3%;
+    height: 90%; 
+    background-color:rgba(240, 187, 120, 0.6);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+
+.nav-header a img{
+    display: inline;
+    margin: 10px;
+    width: 30px;
+    height: auto;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    height: 110px;
+    min-width: 200px;
+    max-width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:black;
+    border-radius: 10px;
+}
+
+nav ul{
+display: flex;
+justify-content: space-between;
+align-items: right;
+padding: 10px;
+margin: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(164, 142, 110);
+}
+
+/* Main Section */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#profil{
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+article ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+/* Contact Section */
+#contact{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(84, 58, 20);
+    color: antiquewhite;
+    border-radius: 10px;}
+    
+
+.form{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+#submit{
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: antiquewhite;
+
+}
+
+/* Footer */
+footer{
+    justify-content: center;
+    text-align: center;
+}

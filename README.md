@@ -30,4 +30,7 @@ This is my personal portfolio website where I showcase my skills, projects, and 
 
 4. Hit Enter, and the webpage should load. 
 
+OR
+
+You can access the deployed website [here](https://revou-fsse-feb25.github.io/milestone-1-rifkykurniawanp/)
 ---

@@ -5,112 +5,121 @@
         <meta charset="UTF-8">
         <meta name="Viewport" content="width-device-width, initial-scale-1.0">
         <title>Proyek Pertama</title>
-        <details>Tugas pertama di Revou</details>
+        <!-- <details>Tugas pertama di Revou</details> -->
+        <link rel="stylesheet" href="styles.css">
 
 
     </head>
 
     <body>
-        <header>
-            <h1> Selamat Datang di Milestone Pertama Rifky Kurniawan Putra</h1>
-            <img src="Foto/RevoU-Logo.png" alt="RevoU" width="100px">
-                <a href="https://www.linkedin.com/in/rifkykurniawanputra/" target="_blank"> Linkedln</a> 
-                <a href="https://instagram.com/rifkykurniawanp" target="_blank"> Instagram</a> 
-                <a href="mailto:krifky14@gmail.com" target="_blank"> Email</a> 
-                <a href="https://wa.me/6282133070087" target="_blank"> WhatsApp</a> 
+        <!-- Layer Pertama -->
+        <div class="layer-1"> 
+            <header>
+                <Section id="name">
+                    <h1 >Rifky Kurniawan Putra</h1>
+                <caption>Full-Stack Software Engineer | Medical Doctor</caption>
                 <hr>
-            <nav>
-                <ul>
-                    <li> <a href="Main.html"> Home</a></li>
-                    <li> <a href="Aboutme.html"> About Me</a></li>
-                    <li> <a href="Project.html"> Project Section</a></li>
-                    <li> <a href="Contact.html"> Contact Section</a></li>
-                </ul>
-            </nav>
-        </header>   
+                </Section> 
 
-        <hr>
+                <nav class="menu">
+                    <ul style="list-style: none;">
+                        <li> <a href=#home> Home </a></li>
+                        <li> <a href=#about-me> About Me </a></li>
+                        <li> <a href=#project> Project </a></li>
+                        <li> <a href=#contact> Contact </a></li>
+                    </ul>
+                </nav>
+             
+            </header>   
 
-        <main>
+            <hr>
 
-            <!-- Home Section -->
-            <section>
-                <h2>Halo, Saya <b>Rifky Kurniawan Putra</b></h2>
-                <img src="Foto/Profil.JPG" alt="profil" width="250px">
-                <br>
-                    <article>
-                        <p>I am a recent graduate of Universitas Muhammadiyah Semarang with a medical doctorate. I have six months of internship experience at Bhayangkara Hospital Tulungagung and I have six months of internship experience at Puskesmas Kauman Tulungagung, East Java which equips my skills in critical thinking, problem-solving, and client-centric approach. I am shifting my career to a Software Engineering role by enrolling in the RevoU Full-Stack Software Engineering (FSSE) program. During 6-month of the FSSE program</p>
+            <main>
+
+                <!-- Home Section -->
+                <section id="Home">
+                    <h2> Halo, Saya <b>Rifky Kurniawan Putra</b></h2>
+                    <img src="assets/Profil.JPG" alt="profil" id="profil">
+                    <br>
+                        <article>
+                            <p>I am a recent graduate of Universitas Muhammadiyah Semarang with a medical doctorate. I have six months of internship experience at Bhayangkara Hospital Tulungagung and I have six months of internship experience at Puskesmas Kauman Tulungagung, East Java which equips my skills in critical thinking, problem-solving, and client-centric approach. I am shifting my career to a Software Engineering role by enrolling in the RevoU Full-Stack Software Engineering (FSSE) program. During 6-month of the FSSE program</p>
+                        </article>
+                </section>
+                <hr>
+
+                <!-- About Me Section -->
+                <section id="about-me">
+                    <h2>Tentang Saya</h2>
+                    <article class="Pendidikan">
+                        <h3>Pendidikan Saya</h3>
+                        <ul>
+                            <li>RevoU Full-Stack Software Engineering (Februari 2025-sekarang)</li>
+                            <li> Universitas Muhammadiyah Semarang (2016-2023)</li>
+                        </ul>
                     </article>
-            </section>
-            <hr>
 
-            <!-- About Me Section -->
-            <section>
-                <h2>Tentang Saya</h2>
-                <article class="Pendidikan">
-                    <h3>Pendidikan Saya</h3>
-                    <ul>
-                        <li>RevoU Full-Stack Software Engineering (Februari 2025-sekarang)</li>
-                        <li> Universitas Muhammadiyah Semarang (2016-2023)</li>
-                    </ul>
-                </article>
+                    <article class="Pengalaman">
+                        <h3>Pengalaman Kerja</h3>
+                        <ul>
+                            <li> Puskesmas Kauman Tulungagung (November 2024-sekarang)</li>
+                            <li> Rumah Sakit Bhayangkara Tulungagung (Mei - November 2024)</li>
+                        </ul>
+                    </article>
+                    
+                </section>
 
-                <article class="Pengalaman">
-                    <h3>Pengalaman Kerja</h3>
-                    <ul>
-                        <li> Puskesmas Kauman Tulungagung (November 2024-sekarang)</li>
-                        <li> Rumah Sakit Bhayangkara Tulungagung (Mei - November 2024)</li>
-                    </ul>
-                </article>
+                <!-- Project Section -->
+                <section id="project">
+                    <h2>My Project</h2>
+                    <img src="assets/gembok.png" alt="profil" width="250px">
+                    <br>
+                    <article>
+                        <p>Tidak tersedia</p>
+                    </article>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact">
+                    <h2>Contact Section</h2>
+                    <article class="form">
+                        <form method="post" action="">
+                            <table>
+                                <tr>
+                                    <th colspan="2"> Form Pertanyaan</th>
+                                </tr>
+                                <tr>
+                                    <td>Nama  </td>
+                                    <td><input type="text" name="" id="" placeholder="Nama Anda"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email  </td>
+                                    <td><input type="email" name="" id="" placeholder="Email anda"></td>
+                                </tr>
+                                <tr>
+                                    <td>Pertanyaan</td>
+                                    <td> <input type="text" name="text" id="" placeholder="Ada pertanyaan?"></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <input type="submit" name="submit" id="submit">
+                        </form>     
+                    </article>
+                    <hr>
+                </section>
                 
-            </section>
-
-            <!-- Project Section -->
-            <section>
-                <h2>My Project</h2>
-                <img src="Foto/gembok.png" alt="profil" width="250px">
-                <br>
-                <article>
-                    <p>Tidak tersedia</p>
-                </article>
-            </section>
-
-            <!-- Contact Section -->
-            <section>
-                <h2>Contact Section</h2>
-            </section>
-
-            <article>
-
-               <form>
-                   <table border="1">
-                    <tr>
-                        <th colspan="2"> Form Pertanyaan</th>
-                    </tr>
-                    <tr>
-                        <td>Nama  </td>
-                        <td><input type="text" name="" id="" placeholder="Nama Anda"></td>
-                    </tr>
-                    <tr>
-                        <td>Email  </td>
-                        <td><input type="email" name="" id="" placeholder="Email anda"></td>
-                    </tr>
-                    <tr>
-                        <td>Pertanyaan</td>
-                        <td> <input type="text" name="text" id="" placeholder="Ada pertanyaan?"></td>
-                    </tr>
-                   </table>
-                   <br>
-                   <input type="submit" name="submit" id="submit">
-               </form>     
-            </article>
-            <hr>
-
-
-        </main>
+            </main>
+            <!-- Social Media -->
+            <div class="nav-header">
+                <a href="https://www.linkedin.com/in/rifkykurniawanputra/" target="_blank"> <img src="assets/linkedin.png" alt="https://www.linkedin.com/in/rifkykurniawanputra"></a> 
+                <a href="https://instagram.com/rifkykurniawanp" target="_blank"> <img src="assets/instagram.png" alt="https://instagram.com/rifkykurniawanp"></a> 
+                <a href="https://github.com/rifkykurniawanp" target="_blank"> <img src="assets/github.png" alt="https://github.com/rifkykurniawanp"></a> 
+                <a href="mailto:krifky14@gmail.com" target="_blank"> <img src="assets/email.png" alt="mailto:krifky14@gmail.com"></a> 
+                <a href="https://wa.me/6282133070087" target="_blank"> <img src="assets/whatsapp.png" alt="https://wa.me/6282133070087"></a> 
+            </div>
+        </div>
 
         <footer>
-           <p> &copy; 2025 Milestone I, Rifky Kurniawan Putra</p>
+           <p> &copy; 2025 , Rifky Kurniawan Putra</p>
         </footer>
     </body>
 
