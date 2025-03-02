@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="Viewport" content="width-device-width, initial-scale-1.0">
         <title>Proyek Pertama</title>
-        <!-- <details>Tugas pertama di Revou</details> -->
+        <!-- <details>Portfolio</details> -->
         <link rel="stylesheet" href="styles.css">
 
 
@@ -14,12 +14,11 @@
     <body>
         <!-- Layer Pertama -->
         <div class="layer-1"> 
-            <header>
+            <header id="header">
                 <Section id="name">
                     <h1 >Rifky Kurniawan Putra</h1>
-                <caption>Full-Stack Software Engineer | Medical Doctor</caption>
-                <hr>
-                </Section> 
+                    <caption>Full-Stack Software Engineer | Medical Doctor</caption>
+                </Section>    
 
                 <nav class="menu">
                     <ul style="list-style: none;">
@@ -29,12 +28,11 @@
                         <li> <a href=#contact> Contact </a></li>
                     </ul>
                 </nav>
-             
             </header>   
 
             <hr>
 
-            <main>
+            <main id="main">
 
                 <!-- Home Section -->
                 <section id="Home">
@@ -52,31 +50,33 @@
                     <h2>Tentang Saya</h2>
                     <article class="Pendidikan">
                         <h3>Pendidikan Saya</h3>
-                        <ul>
-                            <li>RevoU Full-Stack Software Engineering (Februari 2025-sekarang)</li>
-                            <li> Universitas Muhammadiyah Semarang (2016-2023)</li>
-                        </ul>
+                        <p>RevoU Full-Stack Software Engineering (Februari 2025-sekarang)</p>
+                        <p> Universitas Muhammadiyah Semarang (2016-2023)</p>
                     </article>
 
                     <article class="Pengalaman">
                         <h3>Pengalaman Kerja</h3>
-                        <ul>
-                            <li> Puskesmas Kauman Tulungagung (November 2024-sekarang)</li>
-                            <li> Rumah Sakit Bhayangkara Tulungagung (Mei - November 2024)</li>
-                        </ul>
+                        <p> Puskesmas Kauman Tulungagung (November 2024-sekarang)</p>
+                        <p> Rumah Sakit Bhayangkara Tulungagung (Mei - November 2024)</p>
+
                     </article>
-                    
                 </section>
 
                 <!-- Project Section -->
-                <section id="project">
+                <Section>
                     <h2>My Project</h2>
-                    <img src="assets/gembok.png" alt="profil" width="250px">
-                    <br>
-                    <article>
-                        <p>Tidak tersedia</p>
-                    </article>
-                </section>
+                    <div id="container">
+                        <div class="project-1">
+                            <img src="assets/gembok.png" alt="profil" width="250px">
+                            <p>Tidak tersedia</p>
+                        </div>
+                        <div class="project-2">
+                            <img src="assets/gembok.png" alt="profil" width="250px">
+                            <p>Tidak tersedia</p>
+                        </div>
+                    </div>
+                </Section>
+
 
                 <!-- Contact Section -->
                 <section id="contact">
@@ -108,6 +108,8 @@
                 </section>
                 
             </main>
+
+
             <!-- Social Media -->
             <div class="nav-header">
                 <a href="https://www.linkedin.com/in/rifkykurniawanputra/" target="_blank"> <img src="assets/linkedin.png" alt="https://www.linkedin.com/in/rifkykurniawanputra"></a> 

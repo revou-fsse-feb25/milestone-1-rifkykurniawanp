@@ -1,20 +1,19 @@
-@import "tailwindcss";
-
 body{
     background-color: rgb(255, 240, 220);
 }
 .layer-1{
+    display: flex;
+    flex-direction: column;
     padding: 2% 2%;
     width: 90%;
     margin: 3%;
     height: 90%; 
     background-color:rgba(240, 187, 120, 0.6);
-    position: relative;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
 
 .nav-header a img{
-    display: inline;
+    /* display: inline; */
     margin: 10px;
     width: 30px;
     height: auto;}
@@ -23,12 +22,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-}
+    padding: 10px;}
 
 #name{
-    display:flex;
-    flex-direction: column;
     justify-content: center;
     padding: 12px;
     height: 110px;
@@ -88,6 +84,28 @@ main{
 
 article ul li{
     list-style: none;
+    padding: 10px;
+}
+
+/* Project */
+#container{
+    display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 3em;
+}
+
+.project-1{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-2 {
+    justify-content: center;
+    text-align: center;
     padding: 10px;
 }
 
