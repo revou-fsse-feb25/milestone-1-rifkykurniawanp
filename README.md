@@ -1,7 +1,7 @@
 
 ---
 
-# Milestones 1 Website
+# My Portfolio Website
 
 ## Overview of the Website
 
@@ -17,6 +17,7 @@ This is my personal portfolio website where I showcase my skills, projects, and 
 ## Technologies Used
 
 - **HTML5** – For the structure and content of the website.
+- **CSS** – For the styling of the website.
 
 
 ## How To Open The Website

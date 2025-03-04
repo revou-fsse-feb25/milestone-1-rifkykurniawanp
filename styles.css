@@ -19,8 +19,9 @@ body{
     height: auto;}
 
 header{
-    display: flex;
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: auto auto;
     align-items: center;
     padding: 10px;}
 
@@ -37,6 +38,7 @@ header{
     align-items: center;
     text-align: center;
     background-color:black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -80,6 +82,11 @@ main{
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#profil:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 article ul li{
