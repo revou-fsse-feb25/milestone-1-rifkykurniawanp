@@ -1,10 +1,24 @@
 @media only screen and (min-width: 300px) and (max-width: 700px) {
-    header{
+    body #header{
         display: flex;
-        flex-direction: row
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding: 10px;
+        text-align: center;
+        font-size: smaller;
+
     }
 
+    body #container{
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+    }
+
+    .container-1 img{
+        height: 10px;
+
+    }
+    .container2{
+        display:none;
+    }
 }

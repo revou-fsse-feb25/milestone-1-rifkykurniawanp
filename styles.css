@@ -205,6 +205,11 @@ table{
     background-color: antiquewhite;
 }
 
+.nav-header{
+justify-content: center;
+text-align: center;
+}
+
 /* Footer */
 footer{
     justify-content: center;
